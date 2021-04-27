@@ -5,9 +5,10 @@
 使用 wtm（vue） 框架，sqlserver 数据库，自己集成signalr
 
 # 运行
-下载后直接运行后端，会生成数据库，并还原前端 npm 包，后端运行后，进入前端clientApp目录，使用 yarn start 命令启动前端
-默认登录 admin 密码 000000
-进入 tcp_client 的bin/debug目录，运行可执行程序，点击“测试线程发送”按钮，vue 前端就能看到曲线更新
+1. 下载后直接运行后端，会生成数据库，并还原前端 npm 包
+2. 后端运行后，进入前端clientApp目录，使用 yarn start 命令启动前端
+3. 默认登录 admin 密码 000000
+4. 进入 tcp_client 的bin/debug目录，运行可执行程序，点击“测试线程发送”按钮，vue 前端就能看到曲线更新
 
 # 后端运行
 ![image](https://user-images.githubusercontent.com/20112289/116172529-87e97600-a73d-11eb-96c5-91b1133b4718.png)
