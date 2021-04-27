@@ -17,3 +17,9 @@
 
 # 前端曲线
 ![image](https://user-images.githubusercontent.com/20112289/116172722-d6971000-a73d-11eb-97e5-1666d207e9d8.png)
+
+# bug 说明
+如图，指定使用sse模式，则运行正常
+![image](https://user-images.githubusercontent.com/20112289/116172899-2c6bb800-a73e-11eb-9e6b-89faf133603a.png)
+如图，不指定模式，默认使用websocket，会出现两分钟后报错，降级到sse
+![image](https://user-images.githubusercontent.com/20112289/116173004-5a50fc80-a73e-11eb-8e45-f7bb3065b32f.png)
