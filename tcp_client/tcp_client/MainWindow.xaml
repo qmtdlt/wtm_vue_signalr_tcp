@@ -1,0 +1,17 @@
+﻿<Window x:Class="tcp_client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tcp_client"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Closing="Window_Closing">
+    <StackPanel>
+        <TextBox Height="50" VerticalAlignment="Center" x:Name="inputstr" FontSize="20" Margin="5" VerticalContentAlignment="Center"></TextBox>
+        <Button IsDefault="True" Height="50" Click="Button_Click" FontSize="20" Margin="5">发送测试消息</Button>
+        <Button Height="50" Click="threadSend" FontSize="20" Margin="5">测试线程发送</Button>
+        <Button Height="50" Click="stopTest" FontSize="20" Margin="5">停止测试</Button>
+        <Button Height="50" Click="switch_test" FontSize="20" Margin="5">随机值/常量</Button>
+        <TextBlock Height="50" TextWrapping="Wrap" x:Name="res" FontSize="20" Margin="5"></TextBlock>
+    </StackPanel>
+</Window>
